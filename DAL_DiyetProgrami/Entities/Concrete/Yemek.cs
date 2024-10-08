@@ -9,6 +9,7 @@ namespace DAL_DiyetProgrami.Entities.Concrete
 {
     public class Yemek : BaseEntity
     {
+        public List<Kullanici> Kullanicilar { get; set; } = new List<Kullanici>();
 
     }
 }

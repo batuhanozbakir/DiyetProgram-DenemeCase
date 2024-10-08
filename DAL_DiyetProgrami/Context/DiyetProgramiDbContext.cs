@@ -13,7 +13,7 @@ namespace DAL_DiyetProgrami.Context
         public DbSet<Kullanici> Kullanicilar { get; set; }
         public DbSet<Ogun> Ogunler { get; set; }
         public DbSet<Yemek> Yemekler { get; set; }
-        public DbSet<YemekKatagorisi> YemekKatagorileri { get; set; }
+        public DbSet<YemekKategorisi> YemekKatagorileri { get; set; }
         public DbSet<Yonetici> Yoneticiler { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

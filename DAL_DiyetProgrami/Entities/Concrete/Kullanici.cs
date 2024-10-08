@@ -13,7 +13,11 @@ namespace DAL_DiyetProgrami.Entities.Concrete
         public string KullaniciSifre { get; set; } // ?  Hash code yapılacak
         public int Yas { get; set; }
         public double Kilo { get; set; }
+        public double Boy { get; set; }
         public string Email { get; set; }
-        
+        public  string Cinsiyet { get; set; }
+        public List<Yemek> Yemekler { get; set; } = new List<Yemek>();
+        public List<Ogun> Ogunler { get; set; } = new List<Ogun>();
+
     }
 }

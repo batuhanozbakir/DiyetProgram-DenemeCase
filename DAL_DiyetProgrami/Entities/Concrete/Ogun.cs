@@ -10,6 +10,6 @@ namespace DAL_DiyetProgrami.Entities.Concrete
     public class Ogun : BaseEntity
     {
         public DateTime OgunZamani { get; set; } // ?
-
+        public  List<Yemek> Yemekler { get; set; } = new List<Yemek>();
     }
 }

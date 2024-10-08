@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DAL_DiyetProgrami.Entities.Concrete
 {
-    public class YemekKatagorisi : BaseEntity
+    public class YemekKategorisi : BaseEntity
     {
         public string YemekTuru { get; set; }
 
